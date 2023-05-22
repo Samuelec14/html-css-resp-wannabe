@@ -138,3 +138,37 @@ img {
     }   
 
 }
+
+/* MOBILE  
+*/
+@media screen and (max-width: 375px) {
+
+    .container{
+        width: 375px;
+    }   
+    .row{
+        display: unset;
+    }
+    .col{
+        margin: auto;
+        width: 100%;
+        margin-bottom: 50px;
+    }
+    .lessons .col,
+    .steps .col,
+    .why-us .col-right,
+    .why-us .col-left{
+        width: unset;
+    }
+    .why-us{
+        background-color:rgb(34, 34, 34) ;
+        margin-bottom: unset;
+        padding: 3rem 0;
+    }
+    .steps{
+        margin: unset;
+        margin-top: 3rem;
+    }
+
+}
+
