@@ -133,6 +133,9 @@ img {
 */
 @media screen and (max-width: 768px) {
 
+    html{
+        overflow:auto; 
+    }
     .container{
         width: 768px;
     }   
@@ -142,6 +145,10 @@ img {
 /* MOBILE  
 */
 @media screen and (max-width: 375px) {
+
+    html{
+        overflow:auto; 
+    }
 
     .container{
         width: 375px;
